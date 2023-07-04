@@ -15,7 +15,7 @@ body {
     background-color: black;
 }
 
-/* Nav Styles */
+/* NAV Styles */
 
 nav {
     background-color: white;
@@ -28,7 +28,7 @@ a {
     text-decoration: none;
 }
 
-/* Mobile menu */
+/* Mobile  NAV menu */
 
 .menu {
     display: flex;
@@ -69,7 +69,7 @@ a {
     display: block;
 }
 
-/* Tablet menu */
+/* Tablet NAV menu */
 
 @media all and (min-width: 700px) {
     .menu {
@@ -85,7 +85,7 @@ a {
     }
 }
 
-/* Desktop menu */
+/* Desktop NAV menu */
 
 @media all and (min-width: 960px) {
     .menu {
@@ -124,9 +124,11 @@ header {
 }
 
 .headerLogo {
+    /* Center Header Logo */
     display: block;
     margin-left: auto;
     margin-right: auto;
+    /* Adjust Logo Size */
     width: 15%;
 }
 
@@ -143,6 +145,16 @@ main {
     /* Justification & Alignment */ 
     text-align: center;
     height: 150vh;
+}
+
+/* First Row Promo Flexbox */
+
+.firstRow {
+    display: flex;
+}
+
+.bannerImg {
+    flex:1;
 }
 
 /* Three Column Grid */
@@ -197,10 +209,16 @@ p {
 }
 
 h1 {
+    font-size: 3rem;
     padding: 15px;
 }
 
-h4 {
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1rem;
     letter-spacing: .5em;
 }
 

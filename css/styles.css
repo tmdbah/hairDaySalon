@@ -183,6 +183,15 @@ main {
     background-color: hsl(9, 58%, 56%);
 }
 
+.mainImg {
+    /* Center Header Logo */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* Adjust Logo Size */
+    width: 40%;
+}
+
 /* Two Column Grid */
 
 /* container */

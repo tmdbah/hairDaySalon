@@ -1,4 +1,4 @@
-# Professional services: Hair Day 9fictional Client) 
+# Professional services: Hair Day (fictional Client) 
 
 HTML and CSS in depth by Meta portfolio project.
 

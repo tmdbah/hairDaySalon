@@ -133,7 +133,7 @@ header {
 }
 
 .mainBanner {
-    margin: 35px 0px 15px 0px;
+    margin: 30px 0px 15px 0px;
 }
 
 main {
@@ -179,8 +179,9 @@ main {
 }
 
 .infoBox {
-    border: 1px solid white ;
+    border: 1px solid white;
     background-color: hsl(9, 58%, 56%);
+    cursor:default;
 }
 
 .mainImg {
@@ -190,6 +191,7 @@ main {
     margin-right: auto;
     /* Adjust Logo Size */
     width: 40%;
+    border: 1px solid white;
 }
 
 /* Two Column Grid */
